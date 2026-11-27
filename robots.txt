@@ -1,0 +1,18 @@
+# 允许主流搜索引擎与 AI 爬虫抓取
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://mubai2026.github.io/elite-profile-site/sitemap.xml
