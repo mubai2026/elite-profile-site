@@ -18,6 +18,12 @@
     "company": "测试公司"
   },
   {
+    "slug": "p-54086745puks",
+    "name": "Actions测试先生",
+    "title": "技术总监",
+    "company": "测试科技"
+  },
+  {
     "slug": "p-mx02x3w01z80",
     "name": "李总",
     "title": "供应链总监",
@@ -46,5 +52,11 @@
     "name": "全链路女士",
     "title": "市场总监",
     "company": "测试集团"
+  },
+  {
+    "slug": "p-54088293qvkn",
+    "name": "Actions验证先生",
+    "title": "运营总监",
+    "company": "验证公司"
   }
 ]
