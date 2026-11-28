@@ -1,58 +1,50 @@
 [
   {
+    "slug": "p-mx03f4ggsylb",
+    "name": "微信扫码测试",
+    "title": "市场负责人",
+    "company": "测试公司"
+  },
+  {
     "slug": "p-mwygvmgo4ay8",
     "name": "莫先生",
     "title": "互联网产品总监",
-    "company": "某科技公司",
-    "headline": "互联网产品总监 · 8年经验"
+    "company": "某科技公司"
   },
   {
     "slug": "p-mwyjrshid748",
     "name": "测试先生",
     "title": "运营总监",
-    "company": "测试公司",
-    "headline": "资深运营专家 · 10年经验"
-  },
-  {
-    "slug": "p-mwyjviwfg2wf",
-    "name": "全链路女士",
-    "title": "市场总监",
-    "company": "测试集团",
-    "headline": "市场总监 · 12年经验"
-  },
-  {
-    "slug": "p-mwylxs0w22dn",
-    "name": "交付测试先生",
-    "title": "财务总监",
-    "company": "测试公司",
-    "headline": "财务总监 · 9年经验"
+    "company": "测试公司"
   },
   {
     "slug": "p-mx02x3w01z80",
     "name": "李总",
     "title": "供应链总监",
-    "company": "某制造集团",
-    "headline": "供应链总监 · 15年经验"
+    "company": "某制造集团"
   },
   {
-    "slug": "p-mx03f4ggsylb",
-    "name": "微信扫码测试",
-    "title": "市场负责人",
-    "company": "测试公司",
-    "headline": "市场负责人 · 7年"
-  },
-  {
-    "slug": "p-mx03g5u7j8u7",
-    "name": "微信扫码测试",
-    "title": "市场负责人",
-    "company": "测试公司",
-    "headline": "市场负责人 · 7年"
+    "slug": "p-mwylxs0w22dn",
+    "name": "交付测试先生",
+    "title": "财务总监",
+    "company": "测试公司"
   },
   {
     "slug": "p-mx03gtyige52",
     "name": "微信扫码测试",
     "title": "市场负责人",
-    "company": "测试公司",
-    "headline": "市场负责人 · 7年经验"
+    "company": "测试公司"
+  },
+  {
+    "slug": "p-mx03g5u7j8u7",
+    "name": "微信扫码测试",
+    "title": "市场负责人",
+    "company": "测试公司"
+  },
+  {
+    "slug": "p-mwyjviwfg2wf",
+    "name": "全链路女士",
+    "title": "市场总监",
+    "company": "测试集团"
   }
 ]
