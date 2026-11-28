@@ -1,0 +1,42 @@
+name: 处理客户档案申请
+
+on:
+  repository_dispatch:
+    types: [new-profile]
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: '客户信息 JSON'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 写入请求数据
+        env:
+          PAYLOAD: ${{ github.event.client_payload.payload || inputs.payload }}
+        run: |
+          mkdir -p requests
+          printf '%s' "$PAYLOAD" > requests/request-$(date +%s).json
+          echo "请求已写入"
+
+      - name: 处理申请
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python3 scripts/process_requests.py
+
+      - name: 提交生成的档案
+        run: |
+          git config user.name "elite-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "auto: 生成客户职业档案"
+            git push
+          fi
